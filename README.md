@@ -2,7 +2,7 @@
 
 [![Landing Page](/assets/img/readme-img/Landing-Page.png)](https://beta.noustalk.com/)
 
-About Us
+**About Us**
 
 Nous – Greek philosophy meaning “mind”, “reason” or “intellect” <br>
 About NousTalk<br>
@@ -45,6 +45,9 @@ Easily share intake and consent forms with clients via our secure online platfor
 
 **Clinical Note taking & templates**
 Clinical note taking is important for recording patient information, while templates can help standardize and streamline the note-taking process.<br>
+
+**Project Overview**<br> 
+[![Landing Page](/assets/img/readme-img/noustalk.webm)](https://beta.noustalk.com/)<br>
 
 **Built with :**<br>
 HTML5<br>
