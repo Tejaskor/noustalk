@@ -46,13 +46,6 @@ Easily share intake and consent forms with clients via our secure online platfor
 **Clinical Note taking & templates**
 Clinical note taking is important for recording patient information, while templates can help standardize and streamline the note-taking process.<br>
 
-**Project Overview**<br> 
-<!-- [![Video Thumbnail](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.webm) -->
-
-[![Click to Play](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.mp4)
-
-<br>
-
 **Built with :**<br>
 HTML5<br>
 CSS3<br>
