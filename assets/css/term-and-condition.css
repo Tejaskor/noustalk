@@ -1,0 +1,44 @@
+.internal-page h1{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46.08px;
+    color: #27313F;
+}
+
+.internal-page p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #3B4554;
+}
+
+/* .internal-page h2{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28.08px;
+    color: #27313F;
+} */
+.internal-page span{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    color: #27313F;
+}
+.internal-page ul li{
+    list-style: inherit;
+    margin-bottom: 10px;
+    color: #3B4554;
+    font-size: 16px;
+    line-height: 28px;
+}
+.heading {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 18px;
+}
+li {
+    line-height: 28px;
+}

@@ -1,0 +1,75 @@
+.get-in-touch-section {
+    padding: 50px 0px 50px 0px;
+}
+.contact-us h2 {
+  font-weight: 600;
+  
+}
+.gray-color {
+    color:#525E6F;
+    font-size: 14px !important;
+}
+.neutral-blue {
+    color:#27313F;
+}
+.contact-us a:hover {
+    color:#27313F;
+}
+.contact-us p, .contact-us a {
+  font-size: 18px;
+}
+.social-icos img {
+    padding: 0px 5px;
+}
+.required{
+    color:#CE0718;
+    margin: 2px;
+}
+.phone-class {
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+/* .form-control {
+    color:#9AA8BC !important;
+} */
+
+.form-cls label {
+    display: inline-block;
+    margin-bottom: 7px;
+    color: #27313F;
+}
+.file-section {
+    background-color: #ECEFF4;
+    padding: 15px 8px;
+    border-radius: 7px;
+}
+.file-section input {
+    float: inline-end;
+}
+
+.contact-us .btn-primary{
+    background-color: #337AB7;
+    padding: 10px 45px;
+    border-radius: 8px; 
+    border :1px solid #337AB7;
+}
+
+@media (max-width: 768px)  {
+    .file-section input {
+        float: none !important;
+    }
+    .file-section label {
+       margin-bottom: 10px;
+    }
+}
+
+/* .form-group .form-control {
+    color: #9AA8BC !important;
+} */
+.form-cls {
+    padding: 30px;
+    background-color: #ffffff;
+    /* box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+}

@@ -1,0 +1,93 @@
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    align-content: center;
+    border-radius: 12px;
+}
+.categories-titile h4 {
+    color: #27313F;
+}
+.categories-titile p {
+    color: #728197;
+} 
+.categories .card {
+    border: none;
+ 
+}
+.card-img-overlay h4 a {
+    color:#FFFFFF;
+}
+
+.contact-us h2 {
+  font-weight: 600;
+  
+}
+.gray-color {
+    color:#525E6F;
+    font-size: 14px !important;
+}
+.neutral-blue {
+    color:#27313F;
+}
+.contact-us a:hover {
+    color:#27313F;
+}
+.contact-us p, .contact-us a {
+  font-size: 18px;
+}
+.social-icos img {
+    padding: 0px 5px;
+}
+.required{
+    color:#CE0718;
+    margin: 2px;
+}
+.phone-class {
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+/* .form-control {
+    color:#9AA8BC !important;
+} */
+
+.form-cls label {
+    display: inline-block;
+    margin-bottom: 7px;
+    color: #27313F;
+}
+.file-section {
+    background-color: #ECEFF4;
+    padding: 15px 8px;
+    border-radius: 7px;
+}
+.file-section input {
+    float: inline-end;
+}
+
+.contact-us .btn-primary {
+    background-color: #337AB7;
+    padding: 10px 45px;
+    border-radius: 8px; 
+    border :1px solid #337AB7;
+}
+
+@media (max-width: 768px)  {
+    .file-section input {
+        float: none !important;
+    }
+    .file-section label {
+       margin-bottom: 10px;
+    }
+}
+
+textarea.form-control {
+    height: 200px;
+}
+.careers-section {
+    color:#525E6F;
+}
+.careers-section h3 {
+    color: #27313F;
+}
+.social-icos img {
+    padding: 0px 7px;
+}

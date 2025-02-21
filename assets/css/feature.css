@@ -1,0 +1,41 @@
+
+.feature-page .list-group-item.active {
+    z-index: 2;
+    color: #337AB7;
+    background-color: #ffffff;
+    border-left: 3px solid #337AB7 !important;
+    /* border-color:  none; */
+    border-color: #fff;
+}
+.feature-page .list-group-item:first-child {
+    border-top-left-radius: initial;
+    border-top-right-radius: initial;
+}
+
+.feature-page .list-group {
+    --bs-list-group-border-width: none;
+}
+
+.fea-title p  {
+    color:#728197;
+    font-size: 18px;
+}
+.fea-title h3 {
+    color:#27313F;
+    font-weight: 600;
+}
+.feature-card .feature-image {
+    align-content: center;
+}
+.feature-title {
+    color:#525E6F;
+    font-size: 16px;
+    font-weight: 400;
+}
+.list-group {
+    position: sticky;
+    top:100px;
+}
+.feature-content h6 {
+    font-weight: 500;
+} 

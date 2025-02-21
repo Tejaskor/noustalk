@@ -1,0 +1,44 @@
+.current-opening-section ol li {
+    line-height: 2rem;
+    font-size: 18px;
+    color: #525E6F;
+}
+.opening p {
+  font-size: 18px;
+  color: #525E6F;
+}
+.opening-title h3 {
+  color: #27313F;
+}
+.opening-title p {
+    color: #728197;
+    font-size: 18px;
+}
+.op-title h5 {
+    color: #1C4365;
+}
+.op-title p {
+    color: #525E6F;
+}
+.key-title h6 {
+    color: #27313F;
+}
+.key-title p {
+    color:#728197;
+}
+.view-button {
+    border: 1px solid #337AB7;
+    background-color: #fff;
+    color: #337AB7;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+.view-button a:hover {
+    color: #337AB7;
+}
+.row-border {
+    border-bottom: 1px solid #DEE4ED;
+}
+.sidebar-social-icon p img {
+    padding: 0px 5px;
+}

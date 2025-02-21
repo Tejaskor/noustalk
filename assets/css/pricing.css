@@ -1,0 +1,144 @@
+.pricing-section .pricing-card {
+  border: 1px solid #B6C2D3;
+  border-radius: 12px;
+  
+}
+.plan-text {
+    font-size: 14px;
+    color: #337AB7;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.month-class {
+    color: #728197;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact:hover {
+    background-color: #276192;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+} 
+.contact  {
+    background-color: #337AB7;
+    color: #fff !important;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px;
+}
+.contact a {
+    color: #fff !important;
+}
+
+
+.contact button {
+    color: #fff!important;
+    border: none;
+}
+.buy-now-btn {
+    background-color: #fff;
+    color: #27313F;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #27313F;
+}
+.buy-now-btn:hover {
+    background-color: #EBF2F8;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+    color: #27313F;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid #27313F;
+} 
+.buy-now-btn button {
+    border: none;
+}
+.pricing-section li {
+    list-style: none;
+    color: #3B4554;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.pricing-section li img {
+    padding-right: 10px;
+}
+
+
+.pricing-container {
+    width: 70%;
+}
+@media (max-width: 768px) {
+    .pricing-container {
+        width: 100%;
+    }
+    .img-arrow {
+        display: none;
+    }
+    .pricing-section li {
+        font-size: 12px;
+    }
+    
+}
+.grey-color li{
+    color:#728197;
+}
+/* toggle button css */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #337AB7;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+#toggleTextMonth, #toggleTextYear {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* toggle button css */

@@ -1,0 +1,89 @@
+.thank-you-section {
+    text-align: -webkit-center;
+    /* height: 700px; */
+    padding: 100px 0px 0px 0px;
+    background-color: #F4F7FA;
+}
+
+.thank-you-section h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 33.12px;
+    text-align: center;
+}
+
+.text-p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: center;
+}
+
+.book-meeting {
+    background-color: #ECEFF4;
+    padding: 24px 30px;
+    gap: 24px;
+    border-radius: 12px;
+    height: auto;
+    width: fit-content;
+}
+
+.book-demo {
+    padding: 8px 24px 8px 24px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px solid #337AB7;
+    background-color: #ffffff;
+}
+.book-demo:hover {
+    color: #337AB7;
+    background-color: #EBF2F8;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .25);
+}
+.title {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.08px;
+    text-align: center;
+}
+.thank-you {
+    background-color: #F4F7FA;
+}
+.thank-you-card .card {
+    border: 1px solid #DEE4ED;
+    border-radius: 16px;
+}
+.thank-you-card img {
+    border-radius: 16px 16px 0px 0px;
+    width: -webkit-fill-available;
+}
+.thank-you-card:hover {
+    border: 1px solid #337AB7;
+    border-radius: 16px;
+}
+.thank-you-card h6:hover {
+   color: #337AB7;
+}
+.thank-you-card h6 {
+    color: #3B4554;
+}
+.title-p {
+    color: #728197;
+}
+.banner-footer {
+    text-align: -webkit-center;
+}
+.banner-footer h6 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;  
+    color: #276192;
+}
+.banner-footer p {
+    color:#525E6F;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+
+}

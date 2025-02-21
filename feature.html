@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Progressive EHR Features for Mental Healths</title>
+    <meta content="Uncover NousTalk's EHR solutions for mental health clinicians. 
+    Elevate care with secure communication, customizable templates, 
+    and efficient administration tools" name="description">
+
+    <!-- Favicons -->
+    <link href="./assets/img/icon/favicon.ico" rel="icon">
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main CSS File -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/home.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/feature.css">
+    <!-- Hotjar Tracking Code for Site 5149201 (name missing) -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 5149201, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <!-- Calendly link widget end -->
+
+</head>
+
+<body class="index-page">
+    <header id="header" class="header sticky-top">
+        <div class="branding d-flex align-items-cente">
+            <div class="container position-relative d-flex align-items-center justify-content-between">
+                <a href="/" class="logo d-flex align-items-center">
+                    <img src="assets/img/noustalklogo.svg" alt="noustalk-logo">
+                </a>
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li><a href="/for-solo-practices.html">For Solo Practices</a></li>
+                        <li><a href="/product.html">Product</a></li>
+                        <li class="dropdown feature-nav-dropdown"><a href="./feature.html"><span>Features</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <div class="row feature-nav ">
+                                    <div class="col-lg-4 col-md-12 col-sm-12 p-4 pt-3  common-cls">
+                                        <li class="nav-bold"><a href="/feature.html">Features</a></li>
+                                        <li><a href="/feature.html#scheduling-demo"><svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24 24" class="icons-effect">
+                                                    <circle class="cls-1" cx="12" cy="12" r="10" fill="#dcefff" />
+                                                    <path class="cls-2"
+                                                        d="M12.5,9.17h-1.67v-3.33c0-.22-.09-.43-.24-.59-.16-.16-.37-.24-.59-.24s-.43.09-.59.24-.24.37-.24.59v4.17c0,.22.09.43.24.59.16.16.37.24.59.24h2.5c.22,0,.43-.09.59-.24.16-.16.24-.37.24-.59s-.09-.43-.24-.59c-.16-.16-.37-.24-.59-.24ZM10,1.67c-1.65,0-3.26.49-4.63,1.4-1.37.92-2.44,2.22-3.07,3.74-.63,1.52-.8,3.2-.47,4.81.32,1.62,1.12,3.1,2.28,4.27,1.17,1.17,2.65,1.96,4.27,2.28,1.62.32,3.29.16,4.81-.47,1.52-.63,2.82-1.7,3.74-3.07.92-1.37,1.4-2.98,1.4-4.63,0-1.09-.22-2.18-.63-3.19-.42-1.01-1.03-1.93-1.81-2.7-.77-.77-1.69-1.39-2.7-1.81-1.01-.42-2.09-.63-3.19-.63h0ZM10,16.67c-1.32,0-2.61-.39-3.7-1.12-1.1-.73-1.95-1.77-2.46-2.99-.5-1.22-.64-2.56-.38-3.85.26-1.29.89-2.48,1.82-3.41.93-.93,2.12-1.57,3.41-1.82,1.29-.26,2.63-.13,3.85.38,1.22.5,2.26,1.36,2.99,2.46.73,1.1,1.12,2.39,1.12,3.7,0,1.77-.7,3.46-1.95,4.71s-2.95,1.95-4.71,1.95h0Z" />
+                                                </svg> &nbsp; Scheduling a demo</a></li>
+                                        <li class=" common-cls"><a href="/feature.html#digital-intake"><svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 23.2 20.07" class="icons-effect-one">
+                                                    <circle class="cls-1" cx="13.2" cy="10.04" r="10" />
+                                                    <path class="cls-2"
+                                                        d="M17.53,8.37v4.17c0,4.17-1.67,5.83-5.83,5.83h-5c-4.17,0-5.83-1.67-5.83-5.83v-5C.87,3.37,2.53,1.7,6.7,1.7h4.17" />
+                                                    <path class="cls-2"
+                                                        d="M17.53,8.37h-3.33c-2.5,0-3.33-.83-3.33-3.33V1.7l6.67,6.67Z" />
+                                                </svg>&nbsp;Digital
+                                                intake</a></li>
+                                        <li><a href="/feature.html#credit-card-processing"><svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    class="icons-effect-two ">
+                                                    <circle class="cls-3" cx="12.14" cy="10.04" r="8" />
+                                                    <circle class="cls-1" cx="13.14" cy="10.04" r="10" />
+                                                    <path class="cls-2" d="M.8,8.37h16.67" />
+                                                    <path class="cls-2"
+                                                        d="M8.76,17.12h-4.26c-2.96,0-3.71-.73-3.71-3.66v-6.85c0-2.65.62-3.5,2.94-3.63.23,0,.49-.02.77-.02h9.26c2.96,0,3.71.73,3.71,3.66v3.68" />
+                                                    <path class="cls-2" d="M4.14,13.37h3.33" />
+                                                    <path class="cls-2"
+                                                        d="M17.47,15.03c0,.62-.18,1.22-.48,1.72-.58.97-1.63,1.62-2.85,1.62s-2.27-.65-2.85-1.62c-.31-.5-.48-1.09-.48-1.72,0-1.84,1.49-3.33,3.33-3.33s3.33,1.49,3.33,3.33Z" />
+                                                    <path class="cls-2" d="M12.84,15.04l.83.82,1.78-1.64" />
+                                                </svg>
+                                                &nbsp;Credit card processing</a>
+                                        </li>
+                                        <li><a href="/feature.html#digital-whiteboard"><svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    class="icons-effect-four">
+                                                    <circle class="cls-1" cx="11.51" cy="10.07" r="10" />
+                                                    <path class="cls-2" d="M.84,18.41h13.33" />
+                                                    <path class="cls-3"
+                                                        d="M9.08,3.12l.62-.62c1.02-1.02,2.68-1.02,3.71,0,1.02,1.02,1.02,2.68,0,3.71l-.62.62M9.08,3.12s.08,1.31,1.24,2.47c1.16,1.16,2.47,1.24,2.47,1.24M9.08,3.12l-5.68,5.68c-.38.38-.58.58-.74.79-.2.25-.36.52-.5.81-.12.24-.2.5-.37,1.02l-.73,2.19M12.79,6.83l-5.68,5.68c-.38.38-.58.58-.79.74-.25.2-.52.36-.81.5-.24.12-.5.2-1.02.37l-2.19.73M2.31,14.86l-.53.18c-.25.09-.53.02-.72-.17-.19-.19-.26-.47-.17-.72l.18-.54M2.31,14.86l-1.25-1.25" />
+                                                </svg>&nbsp;Digital Whiteboard</a>
+                                        </li>
+                                        <li><a href="./feature.html#live-clinical-security"><svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    class="icons-effect-five">
+                                                    <circle class="cls-1" cx="12.34" cy="10.04" r="10" />
+                                                    <path class="cls-2" d="M6.3,15.04v-4.17" />
+                                                    <path class="cls-2" d="M8.34,12.95h-4.17" />
+                                                    <path class="cls-2" d="M5,1.7v2.5" />
+                                                    <path class="cls-2" d="M11.67,1.7v2.5" />
+                                                    <path class="cls-2"
+                                                        d="M11.51,2.89c2.78.1,4.19,1.12,4.27,5.04l.11,5.14c.07,3.43-.73,5.16-4.89,5.25l-5,.1c-4.17.08-5.03-1.62-5.1-5.04l-.12-5.15c-.08-3.92,1.29-5,4.06-5.21l6.67-.13Z" />
+                                                </svg>&nbsp;Live Clinical NoteTaking
+                                                Security</a></li>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 mt-5 common-cls">
+
+                                        <li class="mt-4 factor"><a href="/feature.html#factor-authentication"><svg
+                                                    id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24.51 20.07"
+                                                    class="icons-effect">
+                                                    <defs>
+                                                        <clipPath id="clippath">
+                                                            <rect class="cls-3" x="-.67" y=".04" width="20"
+                                                                height="20" />
+                                                        </clipPath>
+                                                    </defs>
+                                                    <circle class="cls-1" cx="14.51" cy="10.04" r="10" />
+                                                    <g class="cls-5">
+                                                        <g>
+                                                            <path class="cls-4"
+                                                                d="M12.4,12.19c2.91,0,5.27-2.35,5.27-5.24S15.31,1.7,12.4,1.7s-5.27,2.35-5.27,5.24c0,1.34.61,2.32.61,2.32L1.38,15.61c-.29.28-.69,1.02,0,1.71l.73.73c.29.24,1,.59,1.59,0l.86-.85c.86.85,1.84.37,2.2-.12.61-.85-.12-1.71-.12-1.71l.24-.24c1.18,1.17,2.2.49,2.57,0,.61-.85,0-1.71,0-1.71-.24-.49-.73-.49-.12-1.1l.73-.73c.59.49,1.8.61,2.33.61Z" />
+                                                            <path class="cls-2"
+                                                                d="M14.24,6.95c0,1.01-.82,1.83-1.84,1.83s-1.84-.82-1.84-1.83.82-1.83,1.84-1.83,1.84.82,1.84,1.83Z" />
+                                                        </g>
+                                                    </g>
+                                                </svg>&nbsp; 2 Factor
+                                                Authentication</a>
+                                        </li>
+                                        <li><a href="/feature.html#virtual-care"><svg id="Layer_1" data-name="Layer 1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.36 20.07"
+                                                    class="icon">
+                                                    <circle class="cls-1" cx="14.35" cy="10.04" r="10" />
+                                                    <path class="cls-3"
+                                                        d="M1.67,7.54c0-2.36,0-3.54.73-4.27.73-.73,1.91-.73,4.27-.73h5c2.36,0,3.54,0,4.27.73.73.73.73,1.91.73,4.27v4.17c0,1.57,0,2.36-.49,2.85-.49.49-1.27.49-2.85.49H5.01c-1.57,0-2.36,0-2.85-.49-.49-.49-.49-1.27-.49-2.85v-4.17Z" />
+                                                    <path class="cls-2" d="M17.51,17.54H.84" />
+                                                    <path class="cls-2" d="M11.67,12.54h-5" />
+                                                </svg>&nbsp; Virtual Care: Individual, Couples...
+                                            </a></li>
+                                        <li><a href="/feature.html#reminders"><svg id="Layer_1" data-name="Layer 1"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.52 20.07"
+                                                    class="icon">
+                                                    <circle class="cls-1" cx="13.52" cy="10.04" r="10" />
+                                                    <path class="cls-3"
+                                                        d="M13.97,8.13v-.59c0-3.22-2.52-5.84-5.62-5.84S2.72,4.32,2.72,7.54v.59c0,.7-.2,1.39-.58,1.98l-.92,1.44c-.84,1.31-.2,3.1,1.27,3.51,3.84,1.09,7.88,1.09,11.72,0,1.47-.42,2.11-2.2,1.27-3.51l-.92-1.44c-.38-.59-.58-1.28-.58-1.98Z" />
+                                                    <path class="cls-2"
+                                                        d="M4.59,15.87c.55,1.46,2.02,2.5,3.75,2.5s3.2-1.04,3.75-2.5" />
+                                                </svg>&nbsp; Reminders</a></li>
+                                        <li><a href="/feature.html#advance-dashboard"> <svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24.32 20.07" class="icon">
+                                                    <circle class="cls-1" cx="14.31" cy="10.04" r="10" />
+                                                    <path class="cls-2"
+                                                        d="M14.4,10.04c2.17,0,3.07-.83,2.27-3.57-.54-1.84-2.12-3.43-3.97-3.97-2.73-.8-3.57.1-3.57,2.27v2.4c0,2.03.83,2.87,2.5,2.87h2.77Z" />
+                                                    <path class="cls-2"
+                                                        d="M15.8,12.29c-.78,3.86-4.47,6.66-8.68,5.98-3.16-.51-5.7-3.05-6.22-6.21C.22,7.87,3.01,4.17,6.85,3.38" />
+                                                </svg>&nbsp; Advance Dashboard</a></li>
+                                        <li><a href="/feature.html#Secure-Messaging"> <svg id="Layer_1"
+                                                    data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+                                                    viewBox="0 0 24.36 20.07" class="icon">
+                                                    <circle class="cls-1" cx="14.35" cy="10.07" r="10" />
+                                                    <path class="cls-3"
+                                                        d="M4.17,8.4v-1.67c0-2.76.83-5,5-5s5,2.24,5,5v1.67" />
+                                                    <path class="cls-3"
+                                                        d="M13.34,18.41H5.01c-3.33,0-4.17-.83-4.17-4.17v-1.67c0-3.33.83-4.17,4.17-4.17h8.33c3.33,0,4.17.83,4.17,4.17v1.67c0,3.33-.83,4.17-4.17,4.17Z" />
+                                                    <path class="cls-2" d="M12.5,13.4h0" />
+                                                    <path class="cls-2" d="M9.17,13.4h0" />
+                                                    <path class="cls-2" d="M5.84,13.4h0" />
+                                                </svg>&nbsp; Secure Messaging Internal And
+                                                Client</a></li>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 col-sm-12 ">
+                                        <div class="best-feature">
+                                            <li class="nav-bold pt-2"><a href="">Check our best features</a></li>
+                                            <li class="nav-bold"><a href="/feature.html"><img
+                                                        src="./assets/img/nav-icon/fa.svg" alt="fa">
+                                                    <div>
+                                                        2FA <i class="fa-solid fa-arrow-right"></i>
+                                                        <p class="m-0"
+                                                            style="font-size:medium; color: #728197; font-weight: 400;">
+                                                            Enhance security with our two...</p>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-bold"><a href="/feature.html"><img
+                                                        src="./assets/img/nav-icon/reminders.svg" alt="fa">
+                                                    <div>
+                                                        Reminders<i class="fa-solid fa-arrow-right"></i>
+                                                        <p class="m-0"
+                                                            style="font-size:medium; color: #728197; font-weight: 400;">
+                                                            Ensure patients never miss their...</p>
+
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="nav-bold"><a href="/feature.html"><img
+                                                        src="./assets/img/nav-icon/advance-dashboard.svg" alt="fa">
+                                                    <div>Advance Dashboard <i class="fa-solid fa-arrow-right"></i>
+                                                        <p class="m-0"
+                                                            style="font-size:medium; color: #728197; font-weight: 400;">
+                                                            Gain comprehensive insights...</p>
+
+                                                    </div>
+                                                </a></li>
+                                            <li class="nav-bold"><a href="/feature.html"><img
+                                                        src="./assets/img/nav-icon/digital-whiteboard.svg" alt="fa">
+                                                    <div>Digital Whiteboard <i class="fa-solid fa-arrow-right"></i>
+                                                        <p class="m-0"
+                                                            style="font-size:medium; color: #728197; font-weight: 400;">
+                                                            Interactive Visual Collaboration...</p>
+
+                                                    </div>
+                                                </a></li>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+
+                        <li class="dropdown reasource-nav-dropdown"><a href="#"><span>Resources</span> <i
+                                    class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <div class="row resources-nav p-3">
+                                    <div class="col-md-6">
+                                        <li class="nav-bold"><a href="https://blog.noustalk.net/"
+                                                target="_blank">Blogs</a>
+                                            <p class="pt-1 pb-2">The latest insights and ideas for <br>building a
+                                                high-performing
+                                                workplace.
+                                            </p></a>
+                                        </li>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li class="nav-bold"><a href="/faqs-page.html">FAQs</a>
+                                            <p class="pt-1 pb-2">Innovative research featured peer- reviewed journals,
+                                                press, and
+                                                more.</p>
+                                        </li>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown about-nav-dropdown"><a href="./about-us.html"><span>About</span>
+                                <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                            <ul>
+                                <div class="row about-nav p-3">
+                                    <div class="col-md-6">
+                                        <li class="nav-bold"><a href="./contact-us.html">Contact Us</a>
+                                            <p>Reach out to us for assistance</p>
+                                        </li>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <li class="nav-bold"><a href="./about-us.html">About Us</a>
+                                            <p>We’re on a mission to help everyone live with clarity,
+                                                purpose,
+                                                and passion
+                                            </p>
+                                        </li>
+
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+
+                        <li class="black-nav"></li>
+                        <li class="book-nav">
+                            <a class="purple-btn"
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tejas-noustalk/30min'});return false;"><img
+                                    width="20px" height="20px" src="./assets/img/icon/rocket-icon.svg"
+                                    alt="rocket" />&nbsp; Book Free EHR
+                                Demo</a>
+
+                        </li>
+                    </ul>
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Feature</li>
+                </ol>
+            </nav>
+        </div>
+        <!--Features section -->
+        <section class="feature-page">
+            <div class="container">
+                <div class="row mb-4">
+                    <div class="fea-title">
+                        <h3>Features</h3>
+                        <p>Comprehensive tools and innovative solutions to enhance efficiency, security, and patient
+                            care.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-3 ">
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                data-bs-toggle="list" href="#scheduling-demo" role="tab"
+                                aria-controls="list-home">Scheduling a demo </a>
+                            <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                data-bs-toggle="list" href="#digital-intake" role="tab"
+                                aria-controls="list-profile">Digital intake</a>
+                            <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                data-bs-toggle="list" href="#credit-card-processing" role="tab"
+                                aria-controls="list-messages">Credit card processing</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#digital-whiteboard" role="tab"
+                                aria-controls="list-settings">Digital Whiteboard &nbsp;<img
+                                    src="/assets/img/feature/star-bg.svg" alt="One Star"></a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#live-clinical-security" role="tab"
+                                aria-controls="list-settings">Live Clinical Note Taking Security</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#factor-authentication" role="tab"
+                                aria-controls="list-settings">2 Factor Authentication &nbsp;<img
+                                    src="/assets/img/feature/star-bg.svg" alt="One Star"></a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#virtual-care" role="tab"
+                                aria-controls="list-settings">Virtual Care: Individual, Couples, Family, Groups</a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#reminders" role="tab"
+                                aria-controls="list-settings">Reminders &nbsp;<img src="/assets/img/feature/star-bg.svg"
+                                    alt="One Star"></a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#advance-dashboard" role="tab"
+                                aria-controls="list-settings">Advance Dashboard &nbsp;<img
+                                    src="/assets/img/feature/star-bg.svg" alt="One Star"></a>
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#Secure-Messaging" role="tab"
+                                aria-controls="list-settings">Secure Messaging Internal And Client </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-9">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="scheduling-demo" role="tabpanel"
+                                aria-labelledby="list-home-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/automatic-payment.png" class="img-fluid"
+                                                    alt="Billing Management feature advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h4 class="card-title mb-3 mt-2"><b>Advance Billing</b></h4>
+                                                <h6>Automatic Payment and invoicing</h6>
+                                                <p class="mb-4">Send a clear and simple invoice to your client as soon
+                                                    as you’re prepared.
+                                                    Our easy-to-use invoice template ensures that your clients will have
+                                                    a better
+                                                    understanding of their payments.</p>
+                                                <h6>Credit Card processing</h6>
+                                                <p class="mb-3">With our reliable and user-friendly credit card
+                                                    processing services, you can
+                                                    streamline your billing process and improve your customers’ shopping
+                                                    experience.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h4 class="card-title mb-3"><b>Virtual Care</b></h4>
+                                                <h6>Virtual Therapy Sessions</h6>
+                                                <p class="mb-4">Remote healthcare through technology. It’s a growing
+                                                    trend, making
+                                                    healthcare services more accessible and convenient for patients. It
+                                                    offers various
+                                                    options for delivering healthcare services, such as video
+                                                    conferencing and mobile apps.
+                                                    Its benefits include comfort, accessibility, and convenience.</p>
+                                                <div class="row">
+                                                    <div class="col-sm-6 mb-3">
+                                                        <div><img src="assets/img/feature/live-chat.svg"
+                                                                alt="live-chat">&nbsp; &nbsp;Live Chat</div>
+                                                    </div>
+                                                    <div class="col-sm-6 mb-3">
+                                                        <div><img src="assets/img/feature/lock.svg"
+                                                                alt="lock">&nbsp;&nbsp;Secure
+                                                            Messaging</div>
+                                                    </div>
+                                                    <div class="col-sm-6 mb-3">
+                                                        <div><img src="assets/img/feature/airplay.svg"
+                                                                alt="airplay">&nbsp;&nbsp;Screen sharing</div>
+                                                    </div>
+                                                    <div class="col-sm-6 mb-3">
+                                                        <div><img src="assets/img/feature/video.svg" alt="video">&nbsp;
+                                                            &nbsp;Screen
+                                                            recording</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/virtual-therapy-sessions.png"
+                                                    class="img-fluid"
+                                                    alt="Virtual Intervention feature advance-billing">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/digital-informed-consent.png"
+                                                    class="img-fluid" alt="Client Notes feature advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h4 class="card-title mb-3"><b>Client Portal</b></h4>
+                                                <h6>Digital Informed Consent + Intake forms</h6>
+                                                <p class="mb-4">Easily share intake and consent forms with clients via
+                                                    our secure online
+                                                    platform. The completed forms will be sent directly to your inbox
+                                                    for easy access.</p>
+                                                <h6>Clinical Note taking & templates</h6>
+                                                <p class="mb-3">Clinical note taking is important for recording patient
+                                                    information, while
+                                                    templates can help standardize and streamline the note-taking
+                                                    process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
+                            <div class="tab-pane fade" id="digital-intake" role="tabpanel"
+                                aria-labelledby="list-profile-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/digital-intake.png" class="img-fluid"
+                                                    alt="feature-section Digital intake">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h4 class="card-title mb-3"><b>Digital intake</b></h4>
+                                                <h6>Digital Informed Consent & Intake Forms:</h6>
+                                                <p class="mb-3">Simplify the onboarding process with our digital consent
+                                                    and intake forms. Clients can fill these forms out online, ensuring
+                                                    a smooth and hassle-free experience. Once completed, the forms are
+                                                    sent directly to your inbox, giving you instant access and reducing
+                                                    the administrative workload.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Clinical Note-Taking & Templates:
+                                                </h6>
+                                                <p class="mb-3">Enhance your documentation with our easy-to-use
+                                                    templates for clinical note-taking. These templates help you capture
+                                                    all necessary information consistently, improving the accuracy of
+                                                    patient records. Digital note-taking minimizes errors, leading to
+                                                    better patient care and more reliable documentation.</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 ">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/clinical-note-Taking.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="credit-card-processing" role="tabpanel"
+                                aria-labelledby="list-messages-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/credit-card-processing.png"
+                                                    class="img-fluid" alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h4 class="card-title mb-3"><b>Credit Card Processing</b></h4>
+                                                <h6>Automatic Payment and Invoicing:</h6>
+                                                <p class="mb-3">Send clear and simple invoices to your clients
+                                                    effortlessly with our advanced billing system. As soon as you're
+                                                    ready, our user-friendly invoice templates ensure clients understand
+                                                    their payments, making the process smooth and transparent.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Credit Card Processing:</h6>
+                                                <p class="mb-3">Streamline your billing with our reliable credit card
+                                                    processing services. Designed for ease of use, these services
+                                                    improve the payment experience for your clients, ensuring
+                                                    transactions are quick, secure, and hassle-free. Enhance your
+                                                    practice’s efficiency and client satisfaction by simplifying the
+                                                    payment process.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/credit-card-processings.png"
+                                                    class="img-fluid" alt="feature-section Credit Card Processing">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="digital-whiteboard" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/interactive-visual-collaboration-for-enhanced-care.png"
+                                                    class="img-fluid"
+                                                    alt="feature-section Interactive Visual Collaboration for Enhanced Care">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Interactive Visual Collaboration for
+                                                    Enhanced Care</h6>
+                                                <p class="mb-3">Our EMR software includes an integrated Digital
+                                                    Whiteboard, enabling healthcare professionals to visually
+                                                    communicate complex concepts during virtual consultations. Whether
+                                                    you’re explaining treatment plans, illustrating medical conditions,
+                                                    or discussing care instructions, the digital whiteboard allows for
+                                                    real-time drawing, annotations, and collaboration.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Patient Engagement</h6>
+                                                <p class="mb-3">Both clinicians and patients can interact with the
+                                                    digital whiteboard, fostering better understanding and engagement
+                                                    during the session. Visual aids enhance communication, making
+                                                    consultations more informative and effective.</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/patient-engagement.png" class="img-fluid"
+                                                    alt="feature-section Patient Engagement">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/seamless-documentation.png"
+                                                    class="img-fluid" alt="feature-section Seamless Documentation">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Seamless Documentation</h6>
+                                                <p class="mb-3">All whiteboard content can be saved directly to the
+                                                    patient’s record, ensuring no crucial information is lost and
+                                                    allowing for easy reference during follow-up appointments.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="live-clinical-security" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/live-clinical-note-taking.png"
+                                                    class="img-fluid" alt="feature-section Live Clinical Note-Taking">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Live Clinical Note-Taking</h6>
+                                                <p class="mb-3">With real-time note-taking capabilities, healthcare
+                                                    providers can focus on the patient without the need for redundant
+                                                    paperwork later on. As consultations progress, all patient
+                                                    details—diagnoses, treatments, and medical history updates—are
+                                                    recorded instantly in the system. This ensures timely and accurate
+                                                    documentation, streamlining the workflow and reducing administrative
+                                                    burdens.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Data Security & Compliance</h6>
+                                                <p class="mb-3">Healthcare data security is a top priority. All notes
+                                                    and contributions are encrypted, complying with HIPAA and PHIPA
+                                                    standards. End-to-end encryption protects patient data from
+                                                    unauthorized access. Role-based access control secures patient
+                                                    privacy. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/data-security-compliance.png"
+                                                    class="img-fluid" alt="feature-section Data Security & Compliance">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/multiple-providers-independent-notes.png"
+                                                    class="img-fluid" alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Multiple Providers, Independent Notes
+                                                </h6>
+                                                <p class="mb-3">Our group note-taking feature allows multiple providers
+                                                    to take notes on their assigned clients simultaneously without
+                                                    interference. Each provider's notes are kept private, ensuring
+                                                    control over their documentation. This setup promotes privacy and
+                                                    clarity in virtual sessions with multiple providers, improving
+                                                    organization and focus.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="factor-authentication" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+
+                                    <div class="row feature-card mt-2">
+                                        <div class="row">
+                                            <p class="feature-title mb-5">Enhance security with our 2 Factor
+                                                Authentication
+                                                (2FA) feature, designed to protect sensitive patient data and ensure
+                                                compliance with healthcare regulations like HIPAA. This extra layer of
+                                                security adds robust protection against unauthorized access to your EMR
+                                                system.</p>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/secure-access.png" class="img-fluid"
+                                                    alt="feature-section Secure Access">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Secure Access</h6>
+                                                <p class="mb-3">In addition to entering a password, users must verify
+                                                    their identity with a second factor—such as a unique code sent to
+                                                    their mobile device or email—making it significantly harder for
+                                                    intruders to breach the system.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Data Protection</h6>
+                                                <p class="mb-3">Safeguard patient records, clinical notes, and sensitive
+                                                    information from cyber threats and unauthorized users. Even if a
+                                                    password is compromised, 2FA ensures that only authorized personnel
+                                                    can access the EMR.</p>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/data-protection.png" class="img-fluid"
+                                                    alt="feature-section Data Protection">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/complianc-and-trust.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Compliance and Trust</h6>
+                                                <p class="mb-3">Maintain the highest standards of security required by
+                                                    healthcare compliance laws. With 2FA, you build trust with your
+                                                    patients by ensuring that their confidential data is always
+                                                    protected.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="virtual-care" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/individual-therapy.png" class="img-fluid"
+                                                    alt="feature-section Individual Therapy">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Individual Therapy</h6>
+                                                <p class="mb-3">Deliver personalized, one-on-one therapy through
+                                                    encrypted video conferencing, ensuring patient privacy and HIPAA
+                                                    compliance. Patients can attend sessions from anywhere, enhancing
+                                                    convenience and continuity of care without sacrificing the quality
+                                                    of therapeutic engagement.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Couples Therapy</h6>
+                                                <p class="mb-3">Enable dynamic sessions for couples, addressing
+                                                    relational concerns with tools that promote open communication and
+                                                    real-time interaction. The platform supports both partners, even if
+                                                    they are in different locations, with shared document access,
+                                                    session notes, and private messaging between participants when
+                                                    needed. </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/couples-therapy.png" class="img-fluid"
+                                                    alt="feature-section Couples Therapy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/family-therapy.png" class="img-fluid"
+                                                    alt="feature-section Family Therapy">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Family Therapy</h6>
+                                                <p class="mb-3">Conduct multi-participant sessions with family members,
+                                                    regardless of location, using our platform’s advanced video
+                                                    conferencing and management tools. You can bring in family members
+                                                    from multiple locations, track individual progress, and document
+                                                    family dynamics in real-time, fostering collaborative treatment
+                                                    approaches. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Group Therapy</h6>
+                                                <p class="mb-3">Host secure, interactive group therapy sessions with
+                                                    multiple participants, allowing for shared experiences and
+                                                    collective healing. With features like breakout rooms, real-time
+                                                    group note-taking, and session recording (with consent), the
+                                                    platform supports structured therapeutic environments where group
+                                                    members can connect and grow.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/group-therapy.png" class="img-fluid"
+                                                    alt="feature-section Group Therapy">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="reminders" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+
+                                    <div class="row feature-card mt-2">
+                                        <div class="row feature-content">
+                                            <h4 class="card-title mb-3">Appointment Reminder </h4>
+                                            <p class="mb-5">Ensure patients never miss their scheduled visits with the
+                                                Appointment Reminder feature. This automated tool helps keep your
+                                                practice running smoothly while reducing no-shows and cancellations.</p>
+                                            <p class="mb-5"><img src="/assets/img/feature/appointment-reminder.png"
+                                                    class="img-fluid" alt="Appointment Reminder"></p>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Timely Notifications</h5>
+                                                <p class="mb-3">Automatically send reminders to patients via SMS, email,
+                                                    or in-app notifications for upcoming appointments, allowing them to
+                                                    confirm, reschedule, or cancel if necessary.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Customizable Timing</h5>
+                                                <p class="mb-3">Set the timing of reminders based on your
+                                                    preferences—whether it's days, hours, or minutes before an
+                                                    appointment—ensuring patients have ample time to prepare</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Reduce No-Shows</h5>
+                                                <p class="mb-3">Minimize missed appointments with consistent reminders,
+                                                    allowing patients to stay on track with their healthcare, while
+                                                    helping your practice maintain an efficient schedule.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Boost Patient Engagement</h5>
+                                                <p class="mb-3">By providing clear and timely appointment reminders, you
+                                                    enhance communication with your patients, promoting a smooth
+                                                    experience and stronger relationships.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-content">
+                                        <h4 class="card-title mb-3"><b>Bill Due Reminder</b></h4>
+                                        <p class="mb-5">Help patients stay informed and reduce overdue payments with the
+                                            Bill Due Reminder feature. This automated system ensures patients are
+                                            notified about upcoming payment deadlines.</p>
+                                        <p><img src="/assets/img/feature/bill-due-reminder.png" class="img-fluid"
+                                                alt="Bill Due Reminder"></p>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Automated Billing Alerts</h5>
+                                                <p class="mb-3">Send reminders to patients about pending payments via
+                                                    SMS, email, or in-app notifications, giving them time to settle
+                                                    bills before the due date.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Customizable Payment Reminders</h5>
+                                                <p class="mb-3">Personalize the message content and set the timing for
+                                                    reminders based on your billing cycle, ensuring that patients are
+                                                    aware of their financial obligations.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Reduce Late Payments</h5>
+                                                <p class="mb-3">With regular reminders, you’ll reduce the risk of
+                                                    overdue bills, improving your practice’s cash flow and financial
+                                                    management.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-content">
+                                                <h5 class="card-title mb-3">Easy Payment Links</h5>
+                                                <p class="mb-3">Include direct payment links in reminders to make it
+                                                    easy for patients to pay online, ensuring a seamless and convenient
+                                                    billing process.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="advance-dashboard" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+                                    <div class="row feature-card mt-2">
+                                        <p class="mb-3">Gain comprehensive insights into your practice with our Advanced
+                                            Dashboard feature, designed to provide real-time data and analytics for
+                                            better decision-making and practice management. This intuitive dashboard
+                                            centralizes critical information, helping you track performance and patient
+                                            care efficiently.</p>
+                                    </div>
+                                    <div class="row feature-card ">
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/real-time-data.png" class="img-fluid"
+                                                    alt="feature-section Real-Time Data">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Real-Time Data</h6>
+                                                <p class="mb-3">Access up-to-date information on patient appointments,
+                                                    billing, treatment outcomes, and other key metrics. The real-time
+                                                    nature of the dashboard ensures that you always have the latest data
+                                                    at your fingertips.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Customizable Views</h6>
+                                                <p class="mb-3">Tailor the dashboard to suit your practice’s unique
+                                                    needs. Choose which metrics to display and organize them into clear,
+                                                    easy-to-read charts and graphs, giving you quick access to the most
+                                                    relevant information for your workflow.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/customizable-views.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/key-performance-indicators.png"
+                                                    class="img-fluid" alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Key Performance Indicators (KPIs)
+                                                </h6>
+                                                <p class="mb-3">Monitor important KPIs such as patient satisfaction,
+                                                    appointment attendance. No show, cancelled & revenue. The dashboard
+                                                    helps you quickly identify areas that need improvement and optimize
+                                                    your practice’s performance.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">User-Friendly Interface</h6>
+                                                <p class="mb-3">The dashboard’s intuitive design ensures that all users,
+                                                    from clinicians to administrative staff, can easily navigate and
+                                                    understand the data presented. It provides a clear overview of
+                                                    practice operations without the need for complex data
+                                                    interpretation.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/user-friendly-interface.png"
+                                                    class="img-fluid" alt="feature-section User-Friendly Interface">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/role-based-access.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Role-Based Access</h6>
+                                                <p class="mb-3">Customize access to dashboard views based on staff
+                                                    roles. Ensure that team members see only the information they need,
+                                                    maintaining security while allowing for efficient task management.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="Secure-Messaging" role="tabpanel"
+                                aria-labelledby="list-settings-list">
+                                <div class="container">
+                                    <div class="row feature-card mt-2">
+                                        <p class="feature-title mb-5">Facilitate seamless, secure communication with
+                                            both your team and patients using our Secure Messaging feature. This tool
+                                            ensures that all conversations remain private and compliant with healthcare
+                                            regulations, enhancing collaboration and patient engagement.</p>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/internal-communication.png"
+                                                    class="img-fluid" alt="feature-section Internal Communication">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-md-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Internal Communication</h6>
+                                                <p class="mb-3">Streamline communication between clinicians,
+                                                    administrative staff, and departments with encrypted internal
+                                                    messaging. Discuss patient care, share updates, and coordinate tasks
+                                                    securely in real time, improving teamwork and decision-making.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Client Messaging</h6>
+                                                <p class="mb-3">Communicate directly with patients through a secure
+                                                    platform. Share important updates, appointment reminders, lab
+                                                    results, or follow-up care instructions without worrying about data
+                                                    breaches or unauthorized access.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/client-messaging.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/message-tracking-and-auditing.png"
+                                                    class="img-fluid" alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content  ">
+                                                <h6 class="card-title mb-3">Message Tracking and Auditing</h6>
+                                                <p class="mb-3">Keep track of all messages exchanged, with a detailed
+                                                    log of who sent and received them. This ensures accountability and
+                                                    provides a clear record for future reference if needed.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row feature-card">
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5 feature-image">
+                                            <div class="card-body feature-content">
+                                                <h6 class="card-title mb-3">Mobile Access</h6>
+                                                <p class="mb-3">Stay connected from anywhere with secure messaging
+                                                    available on both desktop and mobile devices, enabling clinicians
+                                                    and patients to communicate quickly and efficiently.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                                            <div class="card-body feature-img">
+                                                <img src="assets/img/feature/mobile-access.png" class="img-fluid"
+                                                    alt="feature-section advance-billing">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section class="features-section">
+            <div class="container">
+                <div class="faq-title text-center mb-5">
+                    <h3><b>Our Standout Features</b></h3>
+                    <p>Comprehensive tools and innovative solutions to enhance efficiency, security, and patient care.
+                    </p>
+                </div>
+                <div class="row feature-card">
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-img">
+                            <img src="assets/img/feature/advance-billing.svg" alt="feature-section advance-billing">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-content">
+                            <h4 class="card-title mb-3"><b>Advance Billing</b></h4>
+                            <h6><b>Automatic Payment and invoicing</b></h6>
+                            <p class="mb-3">Send a clear and simple invoice to your client as soon as you’re prepared.
+                                Our easy-to-use invoice template ensures that your clients will have a better
+                                understanding of their payments.</p>
+                            <h6><b>Credit Card processing</b></h6>
+                            <p class="mb-3">With our reliable and user-friendly credit card processing services, you can
+                                streamline your billing process and improve your customers’ shopping experience.</p>
+                            <div class="see-more"><a href="#">Learn More<img class="m-2"
+                                        src="/assets/img/icon/Vector.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row feature-card">
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-content">
+                            <h4 class="card-title mb-3"><b>Virtual Care</b></h4>
+                            <h6><b>Virtual Therapy Sessions</b></h6>
+                            <p class="mb-3">Remote healthcare through technology. It’s a growing trend, making
+                                healthcare services more accessible and convenient for patients. It offers various
+                                options for delivering healthcare services, such as video conferencing and mobile apps.
+                                Its benefits include comfort, accessibility, and convenience.</p>
+                            <div class="row">
+                                <div class="col-sm-6 mb-3">
+                                    <div><img src="assets/img/feature/live-chat.svg" alt="">&nbsp;Live Chat</div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div><img src="assets/img/feature/lock.svg" alt="">&nbsp;Secure Messaging</div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div><img src="assets/img/feature/airplay.svg" alt="">&nbsp;Screen sharing</div>
+                                </div>
+                                <div class="col-sm-6 mb-3">
+                                    <div><img src="assets/img/feature/video.svg" alt="">&nbsp;Screen recording</div>
+                                </div>
+                            </div>
+                            <div class="see-more"><a href="#">Learn More<img class="m-2"
+                                        src="/assets/img/icon/Vector.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-img">
+                            <img src="assets/img/feature/virtual-care.svg" alt="feature-section advance-billing">
+                        </div>
+                    </div>
+                </div>
+                <div class="row feature-card">
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-img">
+                            <img src="assets/img/feature/client-portal.svg" alt="feature-section advance-billing">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 mb-5">
+                        <div class="card-body feature-content  ">
+                            <h4 class="card-title mb-3"><b>Client Portal</b></h4>
+                            <h6><b>Digital Informed Consent + Intake forms</b></h6>
+                            <p class="mb-3">Easily share intake and consent forms with clients via our secure online
+                                platform. The completed forms will be sent directly to your inbox for easy access.</p>
+                            <h6><b>Clinical Note taking & templates</b></h6>
+                            <p class="mb-3">Clinical note taking is important for recording patient information, while
+                                templates can help standardize and streamline the note-taking process.</p>
+                            <div class="see-more"><a href="#">Learn More<img class="m-2"
+                                        src="/assets/img/icon/Vector.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--/Features section -->
+
+        <!-- FAQ Section start-->
+        <section id="FAQ">
+            <div class="mt-5 mb-5">
+                <div class="faq-title text-center mb-5">
+                    <h3><b>FAQs/Info Hub</b></h3>
+                    <p>Get insights into our expertise, industry focus, and what sets us apart from the competition.</p>
+                </div>
+                <div class="container ">
+                    <div class="col-md-10 col-sm-12 mx-auto">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <span class="faq-span">Is Voice And Video Data Secured In A Noustalk
+                                            Session?</span>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Yes, voice and video data in a NousTalk session is fortified through advanced
+                                            encryption methods. This assures that every interaction is secure, upholding
+                                            privacy and integrity across all integrity and types of sessions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <span class="faq-span">Why generate A Identifier for Each Call and Access Token
+                                            for Each User? <span>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Creating a unique ID for each call and an access badge,strengthens
+                                            defense,and accountability. This
+                                            prevents unapproved access and facilitates enhanced tracking of user.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <span class="faq-span">How Is Pipeda Different From HIPAA?<span>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            PIPEDA and HIPAA have different focuses: HIPAA protects U.S. healthcare
+                                            data, while PIPEDA addresses all personal data within Canada.PIPEDA requires
+                                            explicit consent for data use, whereas HIPAA allows data use without consent
+                                            but imposes stricter penalties for violations.
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <span class="faq-span">Does Canadian Phi Really Need To Stay In Canada?<span>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Yes, Canadian PHI can be stored outside Canada. Most provinces sanction
+                                            health data storage in the U.S.,
+                                            except British Columbia and Nova Scotia, that impose limits on storing
+                                            residents' health data overseas
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <span class="faq-span">What Are the Privacy Considerations for Health Data in
+                                            Mobile Apps?<span>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Mobile health apps cause privacy concerns because they often lack consistent
+                                            data protection.Many
+                                            gather delicate health data but lack precision.Security risks incorporate
+                                            data leaks and unsafe transfers,
+                                            emphasizing the need for users to grasp data handling methods and select
+                                            secure apps with strong, privacy
+                                            protections.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-center mt-5  see-more"><a href="/faqs-page.html">See All<img
+                                        src="/assets/img/icon/Vector.png" class="m-2" alt="Vector"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- faqs section end  -->
+
+        <!-- lead generation -->
+        <section class="section-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 text-center">
+                        <img src="/assets/img/lead-generation.svg" class="section-image img-fluid"
+                            alt="client-icons-logo">
+                        <h5 class="mt-3 mb-3">Still have questions ?</h5>
+                        <span class="d-block questions-text ">Can’t find the answer you’re looking for ? Please chat to
+                            our
+                            friendly team.</span>
+
+                        <a data-bs-toggle="modal" data-bs-target="#scrollableModal" class=" lead-btn"><img
+                                src="./assets/img/icon/headset.svg" alt="headset" headset>&nbsp; Get
+                            in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /lead generation -->
+
+        <!-- unlock-section"  -->
+        <section class="unlock-section">
+            <div class="container unlock">
+                <div class="row ">
+                    <div class="col-lg-7 col-md-12 col-sm-12  mb-5">
+                        <div class="card-body">
+                            <h3 class="card-title mb-2"><b>Unlock the Power of Advanced EMR/EHR</b></h3>
+                            <p class="card-text mb-4">Simplify patient management, ensure compliance, and boost
+                                productivity with our user-friendly platform. Upgrade your practice now!</p>
+
+                            <a class="book-demo-btn"
+                                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/tejas-noustalk/30min'});return false;">Book
+                                a Demo</a>
+                            <a class="book-btn" href="/feature.html">Explore All Features</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12 col-sm-12 mt-3" style="text-align: -webkit-right">
+                        <img src="/assets/img/hook-banner-circle.svg" class="img-fluid" alt="hook-banner-circle">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- unlock-section -->
+    </main>
+
+    <footer id="footer" class="footer ">
+        <div class="container footer-top">
+            <div class="row gy-4 footer-border">
+                <div class="col-lg-4 col-md-12 footer-t mb-5">
+                    <div class="footer-contact footer-contact">
+                        <a href="/"><img class="mb-4" src="/assets/img/noustalk-logo.svg" alt="noustalk-logo"></a>
+                        <p class="ftl-content mb-3">NousTalk is transforming how clinicians deliver mental health care
+                            and how clients experience mental and behavioral health care.</p>
+                        <div class="footer-img mb-4">
+                            <img src="./assets/img/icon/footer-icons.svg" alt="footer-icons">
+                        </div>
+                        <p><i class="fas fa-envelope me-3"> </i><a class="white-color" href="mailto:info@noustalk.com"
+                                target="_blank">info@noustalk.com</a></p>
+                        <p><i class="fas fa-phone me-3"> </i><a class="white-color" href="tel:1 (647)558-1224"
+                                target="_blank">1
+                                (647)558-1224 (Canadian Clients)</a> <br>
+                            <a class="white-color" href="tel:1 (415)871-0917" target="_blank">&nbsp; &nbsp; &nbsp;
+                                &nbsp; 1
+                                (415)871-0917 (US Clients)</a>
+                        </p>
+                        <p class="mb-3"><i class="fa-solid fa-location-dot"></i></i>&nbsp; &nbsp; 180 King Street South
+                            Suite 710 Waterloo, ON N2J 1P8</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 footer-links">
+                    <h4 class="mb-1">FEATURES</h4>
+                    <ul>
+                        <li></i> <a href="/feature.html">Scheduling a demo</a></li>
+                        <li></i> <a href="/feature.html">Live Clinical NoteTaking...</a></li>
+                        <li></i> <a href="/feature.html">Credit card processing</a></li>
+                        <li></i> <a href="/feature.html">Digital Intake</a></li>
+                        <li></i> <a href="/feature.html">Secure Messaging Internal...</a></li>
+                        <li></i> <a href="/feature.html" style="text-decoration-line: underline;">See More</a>&nbsp;<i
+                                class="bi bi-chevron-right"></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 footer-links">
+                    <h4 class=" mb-1">WHO IT'S FOR</h4>
+                    <ul>
+                        <li><a href="/for-solo-practices.html">For Solo Practitioner</a></li>
+                        <li><a href="/product.html">Products</a></li>
+                        <li><a href="/feature.html">Features</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 footer-links">
+                    <h4 class="mb-1">COMPANY</h4>
+                    <ul>
+                        <li><a href="/pricing.html">Pricing</a></li>
+                        <li><a href="/careers.html">Careers &nbsp;<span
+                                    style="background-color: #FFFFFF; color:#337AB7; border-radius: 4px; padding: 2px 6px;">Hiring!</span></a>
+                        </li>
+                        <li><a href="https://blog.noustalk.net/" target="_blank">Blogs</a></li>
+                        <li><a href="/about-us.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 help-and-support">
+                    <h4 class=" mb-1 Address-content">HELP AND SUPPORT</h4>
+                    <p><a href="/faqs-page.html">FAQs</a></p>
+                    <p><a href="/our-reviews.html">Our Reviews</a></p>
+                    <p><a href="/contact-us.html">Contact Us</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright  ">
+            <div class="col-lg-12 footer-cls row">
+                <div class="col-sm-12 col-md-12 col-lg-4 ">
+                    <div class="all-right">
+                        All Rights Reserved <b>NousTalk. © Copyright 2024. </b>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4  text-center p-0 footer-bottom">
+                    <a href="privacy-policy.html"> Privacy Policy </a> | <a href="term-and-condition.html"> Terms &
+                        Conditions </a> | <a href="/business-associate-agreement.html"> BAA </a> | <a
+                        href="site-map.html">
+                        Site Map</a>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4  social-links-cls float-right p-0">
+                    <img class="px-2 " src="/assets/img/icon/youtube.svg" alt="youtube">
+                    <img class="px-2 " src="/assets/img/icon/tiktok.svg" alt="tiktok">
+                    <img class="px-2 " src="/assets/img/icon/pinterest.svg" alt="pinterest">
+                    <a href="https://twitter.com/noustalk" target="_blank"><img class="px-2 "
+                            src="/assets/img/icon/twitter.svg" alt="twitter"></a>
+                    <img class="px-2 " src="/assets/img/icon/facebook.svg" alt="facebook">
+                    <img class="px-2 " src="/assets/img/icon/instagram.svg" alt="instagram">
+                    <img class="px-2 " src="/assets/img/icon/linkedin.svg" alt="linkedin">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="footer-cls" style="text-align: -webkit-center; margin-bottom: 0px !important;">
+                    <p>Designed & Developed by
+                        <a class="text-reset fw-bold blue-color" target=”_blank”
+                            href="https://www.thinkitive.com/">Thinkitive</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/home.js"></script>
+    <!-- exist-popup script -->
+    <!-- <script>
+        document.addEventListener('mouseleave', function (e) {
+            if (e.clientY < 0) {
+                var myModal = new bootstrap.Modal(document.getElementById('scrollableModals'));
+                myModal.show();
+            }
+        }); 
+    </script> -->
+</body>
+<!-- popup of get started -->
+<div class="modal fade" id="scrollableModal" tabindex="-1" aria-labelledby="scrollableModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content p-4">
+            <div class="modal-header">
+                <img src="assets/img/noustalklogo.svg" alt="noustalk-logo">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+                <script>
+                    hbspt.forms.create({
+                        region: "na1",
+                        portalId: "46800360",
+                        formId: "1289ba04-03b3-492c-892a-c6f7aba15a71"
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Exit Popup Modal -->
+<div class="modal fade" id="scrollableModals" tabindex="-1" aria-labelledby="scrollableModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+        <div class="modal-content p-4 exist-popup">
+            <div class="modal-header">
+                <img src="assets/img/noustalklogo.svg" alt="noustalk-logo">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h4 class="mt-2">Get full feature list of software</h4>
+                <p class="pb-3">Understand our services better with our detailed feature list.</p>
+                <div class="row col-md-12">
+                    <div class="col-md-6">
+                        <img src="/assets/img/exit-popup/exitpopup.png" class="img-fluid" alt="exit popup">
+                    </div>
+                    <div class="col-md-6">
+                        <script charset="utf-8" type="text/javascript"
+                            src="//js.hsforms.net/forms/embed/v2.js"></script>
+                        <script>
+                            hbspt.forms.create({
+                                region: "na1",
+                                portalId: "46800360",
+                                formId: "1289ba04-03b3-492c-892a-c6f7aba15a71"
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

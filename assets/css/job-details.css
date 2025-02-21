@@ -1,0 +1,14 @@
+.apply-btn {
+    background-color: #337AB7;
+    color: #fff;
+    padding: 10px 50px;
+    border-radius: 8px;
+}
+.apply-btn:hover {
+    color: #fff;
+} 
+.sidebar-social-icon, .job-summery {
+    border: 1px solid #ECEFF4;
+    border-radius: 12px;
+    padding: 20px;
+}

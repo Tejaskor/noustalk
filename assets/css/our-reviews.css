@@ -1,0 +1,39 @@
+.our-reviews-setion {
+    background-color: #F4F7FA;
+    padding: 40px 20px;
+}
+.our-reviews-setion h5, .our-reviews-setion p {
+    color: #728197;
+}
+.our-reviews-setion h3 {
+    color:#27313F;
+}
+.testimonial-footer p {
+   color:#27313F;
+   font-weight: 500;
+   margin-bottom: 0px;
+}
+.review-card p {
+    color:#061C3D;
+}
+.review-card {
+    border: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .14);
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.review-card .card-footer {
+    background-color: #ffffff !important;
+    border-top: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review-footer {
+    align-items: center;
+    p {
+        margin-bottom: 0rem;
+    }
+}

@@ -1,0 +1,63 @@
+.article-img {
+    text-align: -webkit-center;
+}
+
+.articles-p {
+    font-size: smaller;
+}
+
+.read-more-article {
+    font-size: 12px;
+    color: #337AB7;
+    font-weight: 600;
+    text-decoration-line: underline;
+}
+
+.read-more-article:hover {
+    text-decoration-line: underline;
+}
+
+.article-content p {
+    font-weight: 400;
+    color: #525E6F;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.article-content h6 {
+    font-weight: 600;
+    color: #27313F;
+    line-height: 24px;
+}
+
+.related-articles-section h3 {
+    font-weight: 600;
+}
+
+.for-solo-practices-section h3 {
+    font-weight: 600;
+}
+
+.related-articles-section {
+    padding: 70px 0px 30px 0px;
+}
+
+.for-solo-practices-section {
+    padding: 70px 0px;
+}
+
+.solo-content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3B4554;
+}
+.solo-contents p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #3B4554;
+    padding-right: 30px;
+}
