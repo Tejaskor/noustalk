@@ -49,7 +49,7 @@ Clinical note taking is important for recording patient information, while templ
 **Project Overview**<br> 
 <!-- [![Video Thumbnail](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.webm) -->
 
-[![Click to Play](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.webm)
+[![Click to Play](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.mp4)
 
 <br>
 
