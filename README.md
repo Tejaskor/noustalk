@@ -47,7 +47,8 @@ Easily share intake and consent forms with clients via our secure online platfor
 Clinical note taking is important for recording patient information, while templates can help standardize and streamline the note-taking process.<br>
 
 **Project Overview**<br> 
-[![Landing Page](/assets/img/readme-img/noustalk.webm)](https://beta.noustalk.com/)<br>
+[![Video Thumbnail](/assets/img/readme-img/Landing-Page.png)](/assets/img/readme-img/noustalk.webm)
+<br>
 
 **Built with :**<br>
 HTML5<br>
