@@ -1,4 +1,5 @@
-Nous Talk
+**Nous Talk**
+
 [![Landing Page](/assets/img/readme-img/Landing-Page.png)](https://beta.noustalk.com/)
 
 About Us
